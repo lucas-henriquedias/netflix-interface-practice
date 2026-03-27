@@ -1,0 +1,114 @@
+body {
+    background: #141414;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /*it (Garante) the body (ocupe pelo menos) height of the screen.*/
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 15px;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+.bottom {
+    margin-left: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;  /*(garante) minimum height of 100% screen.*/
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold; /*set text to (negrito)*/
+    margin-bottom: 2rem;
+    letter-spacing: 1px;    /*space between letters*/
+}
+
+section[aria-label="perfis disponiveis"] {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+nav.profiles {
+    display: flex;
+    gap: 2rem;      /*space between (perfis);*/
+}   /*gap - set the space between elements inside container.*/
+
+.profile {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;    /*it allows the items to move to the next line. */
+    justify-content: center;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img[aria-label="icon_profiles"] {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    background: #222;
+    display: block;
+    border: 1p transparent;
+}
+
+img[aria-label="icon_profiles"]:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px 5px #ec0b16;
+}
+
+figcaption {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+body.light-mode {
+    background: #fff;
+    color: black
+}
+
+.light-mode .profile {
+    color: black;
+}
+
+.light-mode img {
+    background: white;
+    border: 1px solid white;
+}
+
+.light-mode img:hover {
+    border: 1px solid black;
+}
