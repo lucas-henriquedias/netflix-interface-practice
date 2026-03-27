@@ -64,7 +64,7 @@ vou add link do site aqui quando pronto
 
 ## 👤 Autor
 Lucas Henrique Dias  
-- GitHub: https://github.com/Lucas3255  
+- Email: lucasfaculdade2025@gmail.com
 - LinkedIn: https://www.linkedin.com/in/lucas-henrique-dias-345666346
 
 ---
