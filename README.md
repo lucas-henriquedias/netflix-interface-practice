@@ -51,14 +51,8 @@ Durante o desenvolvimento, pratiquei e aprimorei:
 
 ---
 
-## 📸 Preview
-
-*(adicione aqui uma imagem ou GIF do projeto)*
-
----
-
 ##🎬 Link de Acesso ao Site
-vou add link do site aqui quando pronto
+(
 
 ---
 
