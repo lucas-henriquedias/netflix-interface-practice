@@ -1,5 +1,6 @@
 
-/*To screens smaller 600px*/
+
+/*To screens smaller 600px/
 @media (max-width: 480px){
     main {
         margin-top: 7rem;
@@ -12,7 +13,7 @@
     }
 }
 
-/*To screens smaller 600px*/
+/*To screens smaller 600px/
 @media (max-width: 600px) {
     main {
         margin-top: 0.5rem;
@@ -30,7 +31,7 @@
     }
 }
 
-/*To screens smaller 900px*/
+/*To screens smaller 900px/
 @media (max-width: 900px) {
     main {
         margin-top: 5rem;
@@ -46,7 +47,7 @@
     }
 }
 
-/*To screens larger 901px*/
+/*To screens larger 901px/
 @media (min-width: 901px) {
     main {
         align-content: center;
@@ -69,4 +70,3 @@
     figcaption {
         font-size: 1rem;
     }
-}
