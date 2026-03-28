@@ -1,82 +1,157 @@
 
-/* @media (max-width: 480){
-    
-} */
-
-
-
-
-
-
-
-
-/*To screens smaller 600px/
+/* telas menores de 480px */
 @media (max-width: 480px){
-    main {
-        margin-top: 7rem;
-        min-height: auto;
+    header {
+        padding: 20px 5%;
     }
 
-    ul {
-        gap: 2rem;
-        padding: 0 20px;
-    }
-}
-
-/*To screens smaller 600px/
-@media (max-width: 600px) {
-    main {
-        margin-top: 0.5rem;
-        min-height: auto;
-        padding: 2rem 0;
+    .logo {
+        width: 150px;
+        height: auto;
     }
 
-    nav.profiles {
-        flex-direction: column;
+    .screen_profiles {
+        padding: 50px;
+    }
+
+    .profiles_list {
+        display: flex;
+        flex-flow: row wrap;
         align-items: center;
-    }
-
-    ul {
-        gap: 4rem;
-    }
-}
-
-/*To screens smaller 900px/
-@media (max-width: 900px) {
-    main {
-        margin-top: 5rem;
-        min-height: auto;
-    }
-
-    nav.profiles {
-        gap: 1rem;
+        justify-content: center;
+        gap: 50px;
     }
 
     h1 {
-        font-size: 2rem;
-    }
-}
-
-/*To screens larger 901px/
-@media (min-width: 901px) {
-    main {
-        align-content: center;
-    }
-
-    nav.profiles {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    img[aria-label="icon_profiles"] {
-        width: 70px;
-        height: 70px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        text-align: center;
     }
 
     figcaption {
         font-size: 1rem;
     }
+
+    .picture {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* telas de 481px até 768px */
+@media (min-width: 481px) and (max-width: 768px){
+    header {
+        padding: 30px 4%;
+    }
+
+    .logo {
+        width: 180px;
+        height: auto;
+    }
+
+    .screen_profiles {
+        padding: 60px;
+    }
+
+    .profiles_list {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+        align-items: center;
+
+    }
+
+    figcaption {
+        font-size: 1.1rem;
+        letter-spacing: 0.8px;
+    }
+
+    .picture {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* telas de 769px até 1024px */
+@media (min-width: 769px) and (max-width: 1024px){
+    header {
+        padding: 40px 3.5%;
+    }
+
+    .logo {
+        width: 210px;
+        height: auto;
+    }
+
+    .screen_profiles {
+        padding: 70px;
+    }
+
+    .profiles_list {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+        margin-bottom: 3.8rem;
+    }
+
+    .picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    figcaption {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+}
+
+/* telas maiores de 1025px */
+@media (min-width: 1025px){
+    header {
+        padding: 50px 3%;
+    }
+
+    .logo {
+        width: 250px;
+        height: auto;
+    }
+
+    .screen_profiles {
+        padding: 80px;
+    }
+
+    .profiles_list {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        margin-bottom: 4rem;
+    }
+
+    .picture {
+        width: 140px;
+        height: 140px;
+    }
+
+    figcaption {
+        font-size: 1.5rem;
+        letter-spacing: 1.2px;
+    }
+}

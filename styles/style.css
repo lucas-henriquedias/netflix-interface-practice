@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: var(--cor_fundo);
-    padding: 10px 2%;
+    padding: 30px 2%;
     position: sticky;
     top: 0;
 }
@@ -31,8 +31,9 @@ header {
 
 /*id do botão troca de tema.*/
 #theme-toggle {
-    width: 100px;
+    width: 50px;
     height: auto;
+    margin: 10px;
 }
 
 /*container da main*/
@@ -92,6 +93,7 @@ figcaption {
     transform: scale(1.08);
     box-shadow: 0 0 20px 5px var(--red_netflix);
 }
+
 
 
 /*----- Botão Modo Claro/Escuro --------*/
