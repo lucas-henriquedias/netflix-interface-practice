@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,42 +14,40 @@
 <body>
     <header>
         <img class="logo" src="imagens/Logonetflix.png" alt="logo do app com o nome Netflix com um vermelho vibrante.">
-        <button class="bottom" id="theme-toggle" onclick="toggleTheme()" style="position:absolute;top:1rem;right:1rem;z-index:10;background:none;border:none;font-size:2rem;cursor:pointer" aria-label="Alternar tema"></button>
+        <button id="theme-toggle" onclick="toggleTheme()" style="position:absolute;top:1rem;right:1rem;z-index:10;background:none;border:none;font-size:2rem;cursor:pointer" aria-label="Alternar tema"></button>
     </header>
 
-    <main>
+    <main class="screen_profiles">
         <h1>Quem está assistindo?</h1>
 
-        <section aria-label="perfis disponiveis">
-            <nav class="profiles">
-                <ul>
-                    <li>
-                        <a href="catalogo/catalogo.html" class="profile">
-                            <figure>
-                                <img aria-label="icon_profiles" src="imagens/Jinx.jpg" alt="Perfil 1">
-                                <figcaption>Lucas</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="catalogo/catalogo.html" class="profile">
-                            <figure>
-                                <img aria-label="icon_profiles" src="imagens/Hange.jpg" alt="Perfil 2">
-                                <figcaption>Henrique</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="catalogo/catalogo.html" class="profile">
-                            <figure>
-                                <img aria-label="icon_profiles" src="imagens/mult_noturno.jpg" alt="Perfil 3">
-                                <figcaption>Dias</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
+        <nav>
+            <ul class="profiles_list">
+                <li>
+                    <a href="" class="profiles">
+                        <figure class="format_figure">
+                            <img class="picture" src="imagens/Jinx.jpg" alt="Perfil 1">
+                            <figcaption>Lucas</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="catalogo/catalogo.html" class="profiles">
+                        <figure class="format_figure">
+                            <img class="picture" src="imagens/Hange.jpg" alt="Perfil 2">
+                            <figcaption>Henrique</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="catalogo/catalogo.html" class="profiles">
+                        <figure class="format_figure">
+                            <img class="picture" src="imagens/mult_noturno.jpg" alt="Perfil 3">
+                            <figcaption>Dias</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </main>
     <script src="theme.js"></script>
 </body>
