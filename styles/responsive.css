@@ -5,16 +5,16 @@
         padding: 20px 5%;
     }
 
-    .logo {
+    .logo {                 /*definindo tamanho do logo inicial da netflix */
         width: 150px;
         height: auto;
     }
 
-    .screen_profiles {
+    .screen_profiles {      /*container da main*/
         padding: 50px;
     }
 
-    .profiles_list {
+    .profiles_list {        /*container list não ordernada*/
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -27,15 +27,16 @@
         text-align: center;
     }
 
-    figcaption {
+    figcaption {            /* texto (nome) de capa perfil */
         font-size: 1rem;
     }
 
-    .picture {
+    .picture {              /* imagens dos perfis */
         width: 80px;
         height: 80px;
     }
 }
+/* ------------------------------------------------------- */
 
 /* telas de 481px até 768px */
 @media (min-width: 481px) and (max-width: 768px){
@@ -43,16 +44,16 @@
         padding: 30px 4%;
     }
 
-    .logo {
+    .logo {             /*definindo tamanho do logo inicial da netflix */
         width: 180px;
         height: auto;
     }
 
-    .screen_profiles {
+    .screen_profiles {          /*container da main*/
         padding: 60px;
     }
 
-    .profiles_list {
+    .profiles_list {            /*container list não ordernada*/
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -67,16 +68,17 @@
 
     }
 
-    figcaption {
+    figcaption {                    /* texto (nome) de capa perfil */
         font-size: 1.1rem;
         letter-spacing: 0.8px;
     }
 
-    .picture {
+    .picture {                /* imagens dos perfis */
         width: 100px;
         height: 100px;
     }
 }
+/* ------------------------------------------------------------- */
 
 /* telas de 769px até 1024px */
 @media (min-width: 769px) and (max-width: 1024px){
@@ -84,16 +86,16 @@
         padding: 40px 3.5%;
     }
 
-    .logo {
+    .logo {                 /*definindo tamanho do logo inicial da netflix */
         width: 210px;
         height: auto;
     }
 
-    .screen_profiles {
+    .screen_profiles {          /*container da main*/
         padding: 70px;
     }
 
-    .profiles_list {
+    .profiles_list {                /*container list não ordernada*/
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -106,16 +108,17 @@
         margin-bottom: 3.8rem;
     }
 
-    .picture {
+    .picture {              /* texto (nome) de capa perfil */
         width: 120px;
         height: 120px;
     }
 
-    figcaption {
+    figcaption {                /* imagens dos perfis */
         font-size: 1.3rem;
         letter-spacing: 1px;
     }
 }
+/* ------------------------------------------------------ */
 
 /* telas maiores de 1025px */
 @media (min-width: 1025px){
@@ -123,16 +126,16 @@
         padding: 50px 3%;
     }
 
-    .logo {
+    .logo {                 /*definindo tamanho do logo inicial da netflix */
         width: 250px;
         height: auto;
     }
 
-    .screen_profiles {
+    .screen_profiles {      /*container da main*/
         padding: 80px;
     }
 
-    .profiles_list {
+    .profiles_list {            /*container list não ordernada*/
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -145,12 +148,12 @@
         margin-bottom: 4rem;
     }
 
-    .picture {
+    .picture {              /* texto (nome) de capa perfil */
         width: 140px;
         height: 140px;
     }
 
-    figcaption {
+    figcaption {                /* imagens dos perfis */
         font-size: 1.5rem;
         letter-spacing: 1.2px;
     }

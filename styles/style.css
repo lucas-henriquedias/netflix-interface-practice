@@ -1,8 +1,10 @@
+/* definindo cores do site */
 :root{
     --cor_fundo: #141414;
     --red_netflix: #ec0b16;
 }
 
+/* padrões à serem add em toda página */
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -20,16 +22,15 @@ body {
 header {
     background-color: var(--cor_fundo);
     padding: 30px 2%;
-    position: sticky;
-    top: 0;
 }
- 
+
+/* logo da netlix da tela inicial */
 .logo {
     width: 200px;
     height: auto;
 }
 
-/*id do botão troca de tema.*/
+/*id do botão troca de tema light/dark.*/
 #theme-toggle {
     width: 50px;
     height: auto;
@@ -47,7 +48,7 @@ header {
 
 /*container list não ordernada*/
 .profiles_list {
-    list-style: none;   /*tira bolinhas da lista*/
+    list-style: none;  
     display: flex;
     padding: 0;
     margin: 0;
@@ -67,6 +68,7 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* formatação base para as imagens dos perfis */
 .format_figure {
     margin: 0;
     display: flex;
@@ -74,11 +76,13 @@ h1 {
     align-items: center;
 }
 
+/* Texto (nome) de cada perfil */
 figcaption {
     font-size: 1.2rem;
     letter-spacing: 0.5px;
 }
 
+/* imagens dos perfis */
 .picture {
     width: 130px;
     height: 130px;
@@ -98,19 +102,22 @@ figcaption {
 
 /*----- Botão Modo Claro/Escuro --------*/
 
-body.light-mode {
+body.light-mode {       /* modo light sobre o corpo da página */
     background: white;
     color: black;
 }
 
+/* modo lihgt sobre todos os herdeiros de "a" */
 body.light-mode .profiles {
     color: black;
 }
 
+/* modo claro sobre o cabeçalho */
 body.light-mode header {
     background-color: white;
 }
 
+/* modo claro sobre as imagens dos perfis */
 body.light-mode .picture {
     background: white;
     border: 1px solid black;
