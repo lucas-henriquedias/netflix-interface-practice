@@ -51,8 +51,8 @@ Durante o desenvolvimento, pratiquei e aprimorei:
 
 ---
 
-##🎬 Link de Acesso ao Site
-https://lucas-henriquedias.github.io/netflix-interface-practice/
+## 🎬 Link de Acesso ao Site
+- https://lucas-henriquedias.github.io/netflix-interface-practice/
 
 ---
 
