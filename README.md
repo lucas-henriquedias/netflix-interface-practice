@@ -46,7 +46,7 @@ Durante o desenvolvimento, pratiquei e aprimorei:
 ## ⚠️ Observações
 
 - A tela de seleção de perfis foi desenvolvida por mim como prática de interface e layout.
-- Parte do JavaScript (tema claro/escuro) e a base da tela de catálogo foram fornecidas durante a imersão, apenas sofrendo pequenas alterações próprias sobre os conteúdos apresentados na tela.
+- Algumas funcionalidades foram desenvolvidas durante a imersão, sendo posteriormente adaptadas, integradas e organizadas por mim no projeto.
 - O projeto foi adaptado e reorganizado para melhor entendimento e aprendizado.
 
 ---
